@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     tools {
-        jdk 'OpenJDK 17.0.4'
+        jdk 'JDK 17'
         python '3.12.0'
     }
 
