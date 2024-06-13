@@ -4,7 +4,6 @@ pipeline {
 
     tools {
         jdk 'JDK 17'
-        python '3.12.0'
     }
 
     environment {
