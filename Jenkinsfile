@@ -21,14 +21,14 @@ pipeline {
         }
 
           
-        stage("pre-build") {
+        stage("build") {
             steps {
                 echo 'Starting the build Stage'
             }
         }
 
                  
-        stage("pre-build") {
+        stage("post-build") {
             steps {
                 echo 'Starting the build Stage'
             }
