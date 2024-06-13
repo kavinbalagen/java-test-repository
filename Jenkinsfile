@@ -15,7 +15,8 @@ pipeline {
          
         stage("pre-build") {
             steps {
-                echo 'Starting the build Stage'
+                echo 'Starting the build Stage '
+                sh 'printenv'
             }
         }
 
